@@ -1,0 +1,41 @@
+{
+  "short_name": "Let's challenge AMP and PWA",
+  "name": "AMP PWA Sample",
+  "icons": [
+    {
+      "src": "images/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+
+  ],
+  "start_url": "article.amp.html",
+  "display": "standalone",
+  "background_color": "c9caca",
+  "theme_color": "#000"
+}
