@@ -5,6 +5,11 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "redirects": [ {
+        "source" : "/firebase/*",
+        "destination" : "https://ampf-5bfd6.firebaseapp.com/article.amp.html",
+        "type" : 302
+    } ]
   }
 }
