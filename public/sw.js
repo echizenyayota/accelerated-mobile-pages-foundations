@@ -1,14 +1,11 @@
-self.addEventListener('install', function(event) {
-  // install時の処理
-  console.log('ServiceWorker Install');
-});
-
-self.addEventListener('activate', function(event) {
-  // activate時の処理
-  console.log('ServiceWorker Activate');
-});
-
-self.addEventListener('fetch', function(event) {
-  // fetch時の処理
-  console.log('ServiceWorker Fetch');
-});
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function(sw) {
+      // successful
+      console.log('ServiceWorker scope: ', sw.scope);
+    }, function(err) {
+      // failed
+      console.log('ServiceWorker failed: ', err);
+    });
+  });
+}
