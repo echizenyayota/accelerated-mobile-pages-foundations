@@ -1,6 +1,6 @@
 {
-  "short_name": "Let's challenge AMP and PWA",
   "name": "AMP PWA Sample",
+  "short_name": "Let's challenge AMP and PWA",
   "icons": [
     {
       "src": "images/icon-128x128.png",
