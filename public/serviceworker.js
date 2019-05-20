@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('script.js').then(function(sw) {
+    navigator.serviceWorker.register('/sw-install.js').then(function(sw) {
       // successful
       console.log('ServiceWorker scope: ', sw.scope);
     }, function(err) {
