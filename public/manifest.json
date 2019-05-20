@@ -31,11 +31,11 @@
       "src": "images/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
-    },
+    }
 
   ],
   "start_url": "article.amp.html",
   "display": "standalone",
-  "background_color": "c9caca",
+  "background_color": "#C9CACA",
   "theme_color": "#000"
 }
